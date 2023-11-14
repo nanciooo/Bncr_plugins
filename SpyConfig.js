@@ -108,7 +108,7 @@ const RspyList = {
             TimeOut: 50,
             Interval: 0,
             RunPanel: [0],
-            Disable: true,
+            Disable: false,
         },
         {
             Name: 'M佬通用开卡',
