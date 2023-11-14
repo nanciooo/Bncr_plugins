@@ -7,7 +7,7 @@
  * @description 当触发的消息中没有 export线报时,触发的消息会经过此模块解析
  * @module true
  * @public false
- */
+ *///
 
 
 const request = require('util').promisify(require('request'));
