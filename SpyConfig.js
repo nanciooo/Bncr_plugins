@@ -1,4 +1,4 @@
-// ByXiaoLan-T 编辑适配M-EVE库 //SuperManito库//
+// By 南辞🐮 编辑适配M-EVE库//
 const RspyList = {
     /* 监控信息配置 */
     SpyList: [
