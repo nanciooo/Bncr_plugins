@@ -134,7 +134,7 @@ function ListS() {
             ],
         },
         {
-            keyword: /wxPointShopView|point|exchangeActDetail|activityType=(10079)/,
+            keyword: /pointExgBeans|pointExgShiWu|pointExgECard/,
             name: 'M佬积分兑换',
             trans: [
                 {
