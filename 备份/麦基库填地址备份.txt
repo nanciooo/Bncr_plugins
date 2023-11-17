@@ -1,0 +1,30 @@
+[
+  {
+    "pt_pin": "jd",#pin
+    "remarks": "南辞🐳",#备注
+    "address": {
+      "receiver": "晴天",#收货名
+      "phone": "1537",#电话
+      "province": "浙",#省
+      "city": "嘉",#市
+      "county": "秀",#区
+      "address": "洪合号",#镇
+      "postalCode": "314011",
+      "areaCode": "330411"
+    }
+  },
+  {
+    "pt_pin": "jd_",
+    "remarks": "南辞🐳",
+    "address": {
+      "receiver": "晴天",
+      "phone": "1",
+      "province": "浙",
+      "city": "嘉",
+      "county": "秀",
+      "address": "洪",
+      "postalCode": "314011",
+      "areaCode": "330411"
+    }
+  }
+]
