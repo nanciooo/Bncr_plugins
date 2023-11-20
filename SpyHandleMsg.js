@@ -369,7 +369,7 @@ function ListS() {
             trans: [
                 {
                     ori: '-1',
-                    redi: 'M_WXM_GYG_SHOP_ARGV',
+                    redi: 'M_GYG_SHOP_ARGV',
                 },
             ],
         },
