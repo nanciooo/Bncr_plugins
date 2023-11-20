@@ -112,7 +112,7 @@ const RspyList = {
         },
         {
             Name: 'M佬通用开卡',
-            Script: 'walle1798_EVE/m_jdm_jd_wx_opencard_m.js',
+            Script: 'walle1798_EVE/m_jd_wx_opencard_m.js',
             ListenEnv: [
                 'M_WX_OPENCARD_M_URL',
             ],
@@ -127,6 +127,18 @@ const RspyList = {
             Script: 'walle1798_EVE/m_jd_wx_luckDraw.js',
             ListenEnv: [
                 'M_WX_LUCK_DRAW_URL',
+            ],
+            execRegExp: ['(?<=activityId(=|%3D))[^&% ]+'],
+            TimeOut: 50,
+            Interval: 0,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: 'M佬店铺刮奖',
+            Script: 'walle1798_EVE/m_jd_shop_gyg.js',
+            ListenEnv: [
+                'M_GYG_SHOP_ARGV',
             ],
             execRegExp: ['(?<=activityId(=|%3D))[^&% ]+'],
             TimeOut: 50,
