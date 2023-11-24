@@ -327,7 +327,7 @@ const RspyList = {
             Disable: false,
         },
         {
-            Name: '（Super）每日抢好礼(100系列)',
+            Name: '慈善家每日抢好礼(100系列)',
             Script: 'SuperManito_cishanjia_main/jd_lzkj_loreal_dailyGrabs.js',
             ListenEnv: [
                 'jd_lzkj_loreal_dailyGrabs_url',
@@ -339,10 +339,22 @@ const RspyList = {
             Disable: false,
         },
         {
-            Name: '（Super）每日抢好礼(无线)',
+            Name: '慈善家/每日抢好礼(无线)',
             Script: 'SuperManito_cishanjia_main/jd_daily.js',
             ListenEnv: [
                 'jd_daily_activityUrl',
+            ],
+            execRegExp: ['(?<=activityId(=|%3D))[^&% ]+'],
+            TimeOut: 50,
+            Interval: 0,
+            RunPanel: [1],
+            Disable: false,
+        },
+        {
+            Name: '店铺签到9',
+            Script: 'nanci/jd_dpqd_Jejz.js',
+            ListenEnv: [
+                'DPQD',
             ],
             execRegExp: ['(?<=activityId(=|%3D))[^&% ]+'],
             TimeOut: 50,
