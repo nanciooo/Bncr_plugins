@@ -351,7 +351,7 @@ const RspyList = {
             Disable: false,
         },
         {
-            Name: '店铺签到9',
+            Name: '久佬/店铺签到',
             Script: 'nanci/jd_dpqd_Jejz.js',
             ListenEnv: [
                 'DPQD',
@@ -359,7 +359,7 @@ const RspyList = {
             execRegExp: ['(?<=activityId(=|%3D))[^&% ]+'],
             TimeOut: 50,
             Interval: 0,
-            RunPanel: [1],
+            RunPanel: [0],
             Disable: false,
         },
        ],
